@@ -24,13 +24,13 @@ class Messages():
       HELP_MSG = [
         ".",
 
-        "**Force Subscribe**\n__Force group members to join a specific channel before sending messages in the group.\nI will mute members if they not joined your channel and tell them to join the channel and unmute themself by pressing a button.__",
+        "**Force Subscribe**\n__Puedo obligar a los miembros del grupo a unirse a un canal específico antes de enviar mensajes en el grupo.\nSilenciaré a los miembros si no se han unido a tu canal, les diré que se unan al canal y que se desactiven el mute ellos mismos presionando un botón.__",
         
-        "**Setup**\n__First of all add me in the group as admin with ban users permission and in the channel as admin.\nNote: Only creator of the group can setup me and i will leave the chat if i am not an admin in the chat.__",
+        "**Configuración**\n__En primer lugar, agrégueme al grupo como administrador con permiso de baneo de usuarios y en el canal como administrador. \nNota: solo el creador del grupo puede configurarme y abandonaré el chat si no soy un administrador en el chat.__",
         
-        "**Commmands**\n__/ForceSubscribe - To get the current settings.\n/ForceSubscribe no/off/disable - To turn of ForceSubscribe.\n/ForceSubscribe {channel username} - To turn on and setup the channel.\n/ForceSubscribe clear - To unmute all members who muted by me.\n\nNote: /FSub is an alias of /ForceSubscribe__",
+        "**Comandos**\n__/ForceSubscribe - Para obtener la configuración actual.\n/ForceSubscribe no/off/disable - Para desactivar ForceSubscribe.\n/ForceSubscribe {channel username} - Para encender y configurar el canal.\n/ForceSubscribe clear - Para quitar el mute a todos los miembros que fueron silenciados por mí.__",
         
-        "**Developed by @viperadnan**"
+        "**Creado por @DKzippO**"
       ]
 
-      START_MSG = "**Hey [{}](tg://user?id={})**\n__I can force members to join a specific channel before writing messages in the group.\nLearn more at /help__"
+      START_MSG = "**Hola [{}](tg://user?id={})**\n__Puedo obligar a los miembros a unirse a un canal específico antes de escribir mensajes en el grupo.\nObtenga más información en /help__"
